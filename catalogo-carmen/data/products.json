@@ -1,0 +1,130 @@
+[
+  {
+    "id": "avon-001",
+    "name": "Batom Matte",
+    "brand": "Avon",
+    "category": "avon",
+    "description": "Cor intensa e acabamento aveludado, de longa duração.",
+    "price": 29.9,
+    "image": "assets/images/products/avon-001.svg",
+    "available": true,
+    "featured": true
+  },
+  {
+    "id": "avon-002",
+    "name": "Perfume Floral",
+    "brand": "Avon",
+    "category": "avon",
+    "description": "Fragrância floral suave para o dia a dia. Frasco de 50 ml.",
+    "price": 89.9,
+    "image": "assets/images/products/avon-002.svg",
+    "available": true,
+    "featured": false
+  },
+  {
+    "id": "avon-003",
+    "name": "Creme Facial Hidratante",
+    "brand": "Avon",
+    "category": "avon",
+    "description": "Hidratação leve para o rosto, de rápida absorção.",
+    "price": 64.9,
+    "image": "assets/images/products/avon-003.svg",
+    "available": true,
+    "featured": false
+  },
+  {
+    "id": "avon-004",
+    "name": "Loção Corporal",
+    "brand": "Avon",
+    "category": "avon",
+    "description": "Loção cremosa com perfume delicado. 400 ml.",
+    "price": 24.9,
+    "image": "assets/images/products/avon-004.svg",
+    "available": true,
+    "featured": false
+  },
+  {
+    "id": "natura-001",
+    "name": "Essencial Oud",
+    "brand": "Natura",
+    "category": "natura",
+    "description": "Fragrância marcante com notas amadeiradas.",
+    "price": 149.9,
+    "image": "assets/images/products/natura-001.svg",
+    "available": true,
+    "featured": true
+  },
+  {
+    "id": "natura-002",
+    "name": "Hidratante Corporal",
+    "brand": "Natura",
+    "category": "natura",
+    "description": "Hidratação prolongada com textura macia. 400 ml.",
+    "price": 54.9,
+    "image": "assets/images/products/natura-002.svg",
+    "available": true,
+    "featured": true
+  },
+  {
+    "id": "natura-003",
+    "name": "Sabonete em Barra",
+    "brand": "Natura",
+    "category": "natura",
+    "description": "Limpeza suave com aroma envolvente. 90 g.",
+    "price": 12.9,
+    "image": "assets/images/products/natura-003.svg",
+    "available": true,
+    "featured": false
+  },
+  {
+    "id": "natura-004",
+    "name": "Creme para as Mãos",
+    "brand": "Natura",
+    "category": "natura",
+    "description": "Cuidado diário para mãos macias. 75 g.",
+    "price": 29.9,
+    "image": "assets/images/products/natura-004.svg",
+    "available": true,
+    "featured": false
+  },
+  {
+    "id": "roupas-001",
+    "name": "Blusa Casual",
+    "category": "roupas",
+    "description": "Blusa leve de algodão, modelagem solta. Tamanho único.",
+    "price": 79.9,
+    "image": "assets/images/products/roupas-001.svg",
+    "available": true,
+    "featured": true
+  },
+  {
+    "id": "roupas-002",
+    "name": "Camiseta Básica",
+    "category": "roupas",
+    "description": "Camiseta de malha macia, ideal para o dia a dia.",
+    "price": 49.9,
+    "image": "assets/images/products/roupas-002.svg",
+    "available": true,
+    "featured": false
+  },
+  {
+    "id": "roupas-003",
+    "name": "Blusa de Alça",
+    "category": "roupas",
+    "description": "Blusa fresca e confortável para dias quentes.",
+    "price": 59.9,
+    "image": "assets/images/products/roupas-003.svg",
+    "available": true,
+    "featured": false
+  },
+  {
+    "id": "roupas-004",
+    "name": "Camisa Listrada",
+    "category": "roupas",
+    "description": "Camisa de tecido leve com listras discretas.",
+    "price": 89.9,
+    "image": "assets/images/products/roupas-004.svg",
+    "available": true,
+    "featured": false
+  }
+]

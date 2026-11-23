@@ -1,0 +1,77 @@
+.site-header{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(246,241,235,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.back{display:grid;place-items:center;width:44px;height:44px;margin-left:-12px;border-radius:50%;text-decoration:none}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--serif);font-weight:600;font-size:1.2rem;letter-spacing:.05em}
+.top-nav{display:none;margin-left:auto;gap:28px}
+.top-nav a{text-decoration:none;padding:8px 0;border-bottom:2px solid transparent}
+.top-nav a[aria-current=page]{border-bottom-color:var(--coffee);font-weight:600}
+.badge{display:inline-grid;place-items:center;min-width:18px;height:18px;padding:0 5px;margin-left:2px;border-radius:9px;background:var(--coffee);color:var(--white);font-size:.7rem;font-weight:600;font-style:normal}
+.tabbar{position:fixed;inset:auto 0 0 0;z-index:20;display:flex;background:var(--white);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
+.tabbar a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:var(--tabbar-h);font-size:.75rem;text-decoration:none;color:var(--muted)}
+.tabbar a[aria-current=page]{color:var(--coffee);font-weight:600}
+
+.page{max-width:1100px;margin:0 auto;padding:24px 20px 32px}
+.status{color:var(--muted)}
+.lead{color:var(--muted);max-width:46ch;margin-top:6px}
+.meta{font-size:.78rem;color:var(--muted)}
+.section{margin-top:32px}
+.section>h2{margin-bottom:14px}
+
+.hero h1{margin:8px 0 8px}
+.hero-card{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;align-items:center;margin-top:24px;padding:20px;border-radius:20px;background:var(--sand);text-decoration:none}
+.hero-title{font-family:var(--serif);font-size:1.7rem;font-weight:600;line-height:1.1;margin-bottom:6px}
+.hero-cta{display:inline-block;margin-top:14px;font-size:.85rem;font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.hero-card .thumb{background:var(--ivory)}
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.cat{display:grid;place-items:center;min-height:72px;border-radius:var(--radius);background:var(--sand);text-decoration:none;font-weight:600}
+.cat:hover{background:var(--taupe);color:var(--white)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border:1px solid var(--coffee);border-radius:12px;background:var(--coffee);color:var(--white);font-weight:600;font-size:.9rem;text-decoration:none}
+.btn-ghost{background:transparent;color:var(--coffee)}
+.btn-whatsapp{background:var(--green);border-color:var(--green)}
+.btn-sm{min-height:40px;padding:0 12px;font-size:.85rem}
+.btn-block{width:100%}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.link-btn{min-height:44px;padding:0 4px;border:0;background:none;color:var(--muted);text-decoration:underline}
+
+.search{position:relative;margin-top:16px}
+.search .icon{position:absolute;left:14px;top:50%;width:18px;height:18px;margin-top:-9px;color:var(--muted);pointer-events:none}
+.search input{width:100%;min-height:48px;padding:0 14px 0 42px;border:1px solid var(--line);border-radius:12px;background:var(--white);font:inherit;color:inherit}
+.chips{display:flex;gap:8px;margin-top:12px;padding:4px 2px;overflow-x:auto}
+.chip{flex:none;display:inline-flex;align-items:center;min-height:42px;padding:0 18px;border:1px solid var(--line);border-radius:999px;background:var(--white);font-size:.9rem;text-decoration:none}
+.chip[aria-current=true]{background:var(--coffee);border-color:var(--coffee);color:var(--white)}
+.list-head{display:flex;justify-content:space-between;align-items:baseline;margin-top:24px}
+
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px 12px;list-style:none;padding:0;margin-top:14px}
+.card{display:flex;flex-direction:column;gap:8px}
+.card-link{display:flex;flex-direction:column;gap:3px;text-decoration:none}
+.thumb{width:100%;aspect-ratio:1;object-fit:cover;border-radius:var(--radius);background:var(--sand);margin-bottom:5px}
+.img-fallback{display:grid;place-items:center;aspect-ratio:1;border-radius:var(--radius);background:var(--sand);color:var(--muted);font-size:.85rem}
+.name{font-weight:500}
+.price{font-weight:600}
+
+.product{display:grid;gap:20px}
+.product-img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:20px;background:var(--sand)}
+.product h1{font-size:2rem;margin:4px 0 6px}
+.product .price{font-size:1.25rem}
+.product-info{display:grid;gap:14px;align-content:start}
+.product-actions{display:grid;gap:10px}
+.qty{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:12px;background:var(--white)}
+.qty button{width:44px;height:44px;border:0;background:none;font-size:1.25rem}
+.qty output{min-width:32px;text-align:center;font-weight:600}
+.field-label{font-size:.85rem;font-weight:500;margin-bottom:6px}
+
+.cart-list{list-style:none;padding:0;margin-top:20px}
+.cart-item{display:grid;grid-template-columns:84px 1fr;gap:14px;padding:16px 0;border-top:1px solid var(--line)}
+.cart-item .thumb,.cart-item .img-fallback{margin:0}
+.cart-actions{display:flex;align-items:center;gap:12px;margin:8px 0 2px}
+.summary{display:grid;gap:8px;padding-top:16px;border-top:1px solid var(--line)}
+.row{display:flex;justify-content:space-between;gap:12px}
+.row.total{margin-top:4px;padding-top:12px;border-top:1px solid var(--line);font-size:1.15rem;font-weight:600}
+.note{font-size:.8rem;color:var(--muted);text-align:center}
+.notice{padding:12px 14px;border:1px solid var(--taupe);border-radius:12px;background:var(--white);font-size:.9rem}
+.cta{display:grid;gap:12px;margin-top:20px}
+.empty{display:grid;justify-items:center;gap:12px;padding:40px 16px;text-align:center}
+.empty p{color:var(--muted);max-width:36ch}
+
+#toast{position:fixed;left:50%;bottom:calc(var(--tabbar-h) + 16px + env(safe-area-inset-bottom));z-index:30;padding:10px 16px;border-radius:999px;background:var(--coffee);color:var(--white);font-size:.9rem;opacity:0;pointer-events:none;transform:translate(-50%,12px);transition:opacity .2s,transform .2s}
+#toast.show{opacity:1;transform:translate(-50%,0)}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carmen Quintanilha — Catálogo digital</title>
+<meta name="description" content="Catálogo digital de produtos Avon, Natura e roupas. Escolha seus itens e envie o pedido pelo WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Carmen Quintanilha — Catálogo digital">
+<meta property="og:description" content="Produtos Avon, Natura e roupas em um só lugar. Monte sua sacola e envie pelo WhatsApp.">
+<meta name="theme-color" content="#F6F1EB">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=DM+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a class="skip" href="#app">Ir para o conteúdo</a>
+<header class="site-header">
+  <a class="back" id="back" href="#/" aria-label="Voltar" hidden>
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+  </a>
+  <a class="brand" href="#/">
+    <img src="assets/images/brand/monogram.svg" alt="" width="34" height="34">
+    <span>Carmen Quintanilha</span>
+  </a>
+  <nav class="top-nav" aria-label="Principal">
+    <a href="#/" data-route="home">Início</a>
+    <a href="#/catalogo" data-route="catalogo">Catálogo</a>
+    <a href="#/sacola" data-route="sacola" data-cart-link>Sacola <span class="badge" data-cart-count hidden>0</span></a>
+  </nav>
+</header>
+<main id="app" tabindex="-1"><p class="page status">Carregando catálogo…</p></main>
+<nav class="tabbar" aria-label="Navegação inferior">
+  <a href="#/" data-route="home">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg><span>Início</span>
+  </a>
+  <a href="#/catalogo" data-route="catalogo">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5"/></svg><span>Catálogo</span>
+  </a>
+  <a href="#/sacola" data-route="sacola" data-cart-link>
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8zM9 8a3 3 0 0 1 6 0"/></svg><span>Sacola <b class="badge" data-cart-count hidden>0</b></span>
+  </a>
+</nav>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript><p class="page">Este catálogo precisa de JavaScript para funcionar.</p></noscript>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
